@@ -36,7 +36,7 @@ defmodule Elixgear.MixProject do
       {:phoenix, "~> 1.5.10"},
       {:phoenix_ecto, "~> 4.1"},
       {:ecto_sql, "~> 3.4"},
-      {:myxql, ">= 0.0.0"},
+      {:postgrex, ">= 0.0.0"},
       {:phoenix_live_dashboard, "~> 0.4"},
       {:telemetry_metrics, "~> 0.4"},
       {:telemetry_poller, "~> 0.4"},

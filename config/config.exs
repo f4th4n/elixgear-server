@@ -13,10 +13,10 @@ config :elixgear,
 # Configures the endpoint
 config :elixgear, ElixgearWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "PQBflKXSgBhHUoEq2o+T7xXclOSxLlUpSqXpTPrR5Hc0tcVYMjvTPTQganqA78rB",
+  secret_key_base: "GZHC8B1CWeT0fpMgbGjoLnkxKmYkE4PptFguR+01Ig6tSgOFZkniM0V9meyOGqWY",
   render_errors: [view: ElixgearWeb.ErrorView, accepts: ~w(json), layout: false],
   pubsub_server: Elixgear.PubSub,
-  live_view: [signing_salt: "F0JMVxAN"]
+  live_view: [signing_salt: "cTFeEyd0"]
 
 # Configures Elixir's Logger
 config :logger, :console,
