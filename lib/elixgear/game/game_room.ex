@@ -1,4 +1,4 @@
-defmodule Elixgear.GameRoom do
+defmodule Elixgear.Game.GameRoom do
   use Ecto.Schema
   import Ecto.Changeset
 

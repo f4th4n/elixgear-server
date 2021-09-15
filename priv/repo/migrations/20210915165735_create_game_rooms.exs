@@ -3,7 +3,7 @@ defmodule Elixgear.Repo.Migrations.CreateGameRooms do
 
   def change do
     create table(:game_rooms) do
-      add :region, :text
+      add :region, :string
 
       timestamps()
     end
