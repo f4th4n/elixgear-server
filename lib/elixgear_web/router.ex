@@ -7,6 +7,8 @@ defmodule ElixgearWeb.Router do
 
   scope "/api", ElixgearWeb do
     pipe_through :api
+
+    resources("/game-room", GameRoomController, except: [:new, :edit])
   end
 
   # Enables LiveDashboard only for development
